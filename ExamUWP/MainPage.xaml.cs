@@ -27,12 +27,14 @@ namespace ExamUWP
     {
         private MemberModel noteModel;
         private ObservableCollection<Member> list;
+
         public MainPage()
         {
             this.InitializeComponent();
             this.noteModel = new MemberModel();
-            
+
         }
+
         private void ButtonCreateMember_OnClick(object sender, RoutedEventArgs e)
         {
             Member note = new Member
@@ -47,7 +49,12 @@ namespace ExamUWP
         {
             list = new ObservableCollection<Member>();
             list = noteModel.ReadListMembers();
-           ListViewMember.ItemsSource = list;
+            ListViewMember.ItemsSource = list;
+        }
+
+        private void RenderSearch_OnClick(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(SearchContact));
         }
     }
 }

@@ -16,7 +16,7 @@ namespace ExamUWP.Model
         {
             try
             {
-                using (var stt = SQLiteUtil.GetIntances().Connection.Prepare("INSERT INTO Note (Name, Phone) VALUES (?,?)"))
+                using (var stt = SQLiteUtil.GetIntances().Connection.Prepare("INSERT INTO Member (Name, Phone) VALUES (?,?)"))
                 {
                     stt.Bind(1, member.Name);
                     stt.Bind(2, member.Phone);
@@ -36,7 +36,7 @@ namespace ExamUWP.Model
 
             using (var conn = new SQLiteConnection("contact.db", SQLiteOpen.READWRITE))
             {
-                using (var statement = conn.Prepare(@"Select * from ContactInformation;"))
+                using (var statement = conn.Prepare(@"Select * from Member;"))
                 {
                     while (statement.Step() == SQLiteResult.ROW)
                     {

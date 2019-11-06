@@ -60,6 +60,9 @@
                     <Button Click="ButtonCreateMember_OnClick">Add Contact</Button>
                     <Button>Reset</Button>
                 </StackPanel>
+                <StackPanel Grid.Row="3" Grid.Column="1">
+                    <HyperlinkButton Click="RenderSearch_OnClick">Search</HyperlinkButton>
+                </StackPanel>
             </Grid>
         </StackPanel>
     </Grid>

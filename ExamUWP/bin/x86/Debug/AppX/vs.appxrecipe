@@ -30,13 +30,13 @@
     <AppXManifest Include="D:\source\repos\ExamUWP\ExamUWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-11-06T08:59:28.640</Modified>
+      <Modified>2019-11-06T09:11:55.815</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\source\repos\ExamUWP\ExamUWP\bin\x86\Debug\ExamUWP.exe">
       <PackagePath>entrypoint\ExamUWP.exe</PackagePath>
-      <Modified>2019-11-06T08:59:28.135</Modified>
+      <Modified>2019-11-06T09:11:55.313</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\.nuget\packages\newtonsoft.json\12.0.2\lib\netstandard2.0\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
@@ -102,19 +102,19 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\source\repos\ExamUWP\ExamUWP\bin\x86\Debug\ExamUWP.xr.xml">
       <PackagePath>ExamUWP.xr.xml</PackagePath>
-      <Modified>2019-11-06T08:59:27.983</Modified>
+      <Modified>2019-11-06T09:10:57.682</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\source\repos\ExamUWP\ExamUWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2019-11-06T08:59:27.994</Modified>
+      <Modified>2019-11-06T09:10:57.721</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\source\repos\ExamUWP\ExamUWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2019-11-06T08:59:27.995</Modified>
+      <Modified>2019-11-06T09:11:55.159</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\source\repos\ExamUWP\ExamUWP\bin\x86\Debug\SearchContact.xbf">
       <PackagePath>SearchContact.xbf</PackagePath>
-      <Modified>2019-11-06T08:59:27.995</Modified>
+      <Modified>2019-11-06T09:10:57.722</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -126,7 +126,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\source\repos\ExamUWP\ExamUWP\bin\x86\Debug\Core\ExamUWP.exe">
       <PackagePath>ExamUWP.exe</PackagePath>
-      <Modified>2019-11-06T08:59:28.636</Modified>
+      <Modified>2019-11-06T09:11:55.810</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
